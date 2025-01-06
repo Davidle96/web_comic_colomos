@@ -1,4 +1,3 @@
-<!-- filepath: /f:/Program_Files/wamp/www/my_project/web_comic_detiue/resources/views/welcome.blade.php -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
