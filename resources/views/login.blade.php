@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="{{ asset('css/login.css') }}">
     <title>Document</title>
 </head>
-<body style="background-color: black; color: white;">
+<body>
     <div class="container">
-        <form action="">
-            <label for="" class="form-label">sdádsad</label>
-            <input type="text" class="form-control" placeholder="Username">
-            <label for="" class="form-label">dfsdfsdfd</label>
-            <input type="password" class="form-control" placeholder="Password">
+        <form action="/login" method="POST">
+            <div class="form-group">
+                <label for="" class="form-label title">Username or Email</label>
+                <input type="text" class="form-control input" placeholder="Username">
+            </div>
+            <div class="form-group">
+                <label for="" class="form-label title">Password</label>
+                <input type="password" class="form-control input" placeholder="Password">
+            </div>
+            
             <button type="submit" class="btn btn-primary">Login</button>
-            <button type="reset">Reset</button>
+            <button type="reset" class="btn btn-secondary">Reset</button>
         </form>
     </div>
 </body>
