@@ -12,6 +12,21 @@ body {
     /* margin-top: 49%; */
     width: 600px;
 }
+
+.logo{
+
+}
+
+    .logo p{
+        font-weight: bold;
+        font-size: 57px;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+/* .avarta{
+
+} */
     
 .form-group {
     display: block;
@@ -85,4 +100,9 @@ body {
             height: 12px;
             width: 100%;
             margin-top: 10px;
+            cursor: progress;
+        }
+
+        .btn-forgot:hover{
+            text-decoration: line-through;
         }
