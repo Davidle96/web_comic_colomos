@@ -13,9 +13,9 @@ body {
     width: 600px;
 }
 
-.logo{
+/* .logo{
 
-}
+} */
 
     .logo p{
         font-weight: bold;
@@ -24,9 +24,44 @@ body {
         text-align: center;
     }
 
-/* .avarta{
-
-} */
+.avar-sign_up-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+    
+    .avarta {
+        position: relative;
+        z-index: 1;
+        transition: transform 0.8s ease-in-out;
+    }
+    
+    .text-avar-sign_up {
+        position: absolute;
+        top: 33%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: all 0.8s ease-in-out;
+        z-index: 0;
+        text-align: center;
+        font-size: 42px;
+        color: #000;
+        width: 500px;
+        font-family: "Lora", serif;
+        font-optical-sizing: auto;
+        font-style: italic; 
+    }
+    
+    .avar-sign_up-wrapper:hover .avarta {
+        transform: translateX(-230px);
+    }
+    
+    .avar-sign_up-wrapper:hover .text-avar-sign_up {
+        opacity: 1;
+        transform: translate(-130px, -50px);
+    }
     
 .form-group {
     display: block;
@@ -102,7 +137,11 @@ body {
             margin-top: 10px;
             cursor: progress;
         }
-
+        
         .btn-forgot:hover{
             text-decoration: line-through;
+        }
+
+        .btn-reset {
+            margin-top: 0 !important;
         }

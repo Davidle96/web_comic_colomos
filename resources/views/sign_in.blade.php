@@ -28,7 +28,7 @@
             <img src="{{ asset('css/imgs/avarta_user.jpg') }}" alt="">
         </div>
 
-        <form action="/login" method="POST" class="form-group">
+        <form action="" method="GET" class="form-group">
             <div class="form-input">
                 <label for="" class="title">Username or Email</label>
                 <input type="text" class="input" placeholder="Username">
@@ -40,8 +40,8 @@
 
             <button type="submit" class="btn-forgot">Forgot Password?</button>
             
-            <button type="submit" class="btn btn-sign_in">Sign In</button>
-            <button type="submit" class="btn btn-sign_up">Sign Up</button>
+            <button type="submit" formaction="/home" class="btn btn-sign_in">Sign In</button>
+            <button type="submit" formaction="/signup" class="btn btn-sign_up">Sign Up</button>
         </form>
     </div>
 </body>

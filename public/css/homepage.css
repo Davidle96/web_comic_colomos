@@ -1,0 +1,12 @@
+body {
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.nav{
+    
+}
