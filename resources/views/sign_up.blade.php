@@ -50,7 +50,7 @@
                 <input type="password" class="form-control input" placeholder="Password">
             </div>
             
-            <button type="submit" formaction="/home" class="btn btn-sign_in">Sign Up</button>
+            <button type="submit" formaction="/" class="btn btn-sign_in">Sign Up</button>
             <button type="reset" class="btn btn-reset">Reset</button>
         </form>
     </div>

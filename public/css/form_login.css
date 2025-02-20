@@ -29,12 +29,18 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
+    
 }
     
-    .avarta {
+    .avarta{
+        scale: 0.75;
+    }
+
+    .avar-sign_up {
         position: relative;
         z-index: 1;
-        transition: transform 0.8s ease-in-out;
+        transition: all 0.8s ease-in-out;
+        opacity: 1;
     }
     
     .text-avar-sign_up {
@@ -54,8 +60,8 @@ body {
         font-style: italic; 
     }
     
-    .avar-sign_up-wrapper:hover .avarta {
-        transform: translateX(-230px);
+    .avar-sign_up-wrapper:hover .avar-sign_up {
+        transform: translateX(-300px);
     }
     
     .avar-sign_up-wrapper:hover .text-avar-sign_up {
@@ -89,7 +95,7 @@ body {
     }
 
     .input {
-        width: 99%;
+        width: 98%;
         height: 30px;
         border:2px solid rgb(0, 0, 0);
         border-radius: 7px;
@@ -145,3 +151,24 @@ body {
         .btn-reset {
             margin-top: 0 !important;
         }
+
+@media screen and (max-width: 600px) {
+    .text-avar-sign_up {
+        font-size: 27px;
+        width: 300px;
+        left: 45%;
+    }
+
+    .avar-sign_up-wrapper:hover .text-avar-sign_up {
+        top: 33%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .avar-sign_up-wrapper:hover .avar-sign_up {
+        opacity: 0;
+        transform: none;
+    }
+    
+    
+}

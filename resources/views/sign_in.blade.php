@@ -40,7 +40,7 @@
 
             <button type="submit" class="btn-forgot">Forgot Password?</button>
             
-            <button type="submit" formaction="/home" class="btn btn-sign_in">Sign In</button>
+            <button type="submit" formaction="/" class="btn btn-sign_in">Sign In</button>
             <button type="submit" formaction="/signup" class="btn btn-sign_up">Sign Up</button>
         </form>
     </div>

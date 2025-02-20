@@ -18,7 +18,25 @@
 <body>
     <div class="container">
         <div class="nav">
-            
+
+            <div class="nav-left">
+
+            </div>
+                
+            <div class="nav-right">
+                
+                <div class="search-box">
+                    <input type="text" class="input-search" placeholder="">
+                </div>
+
+                <div class="avar-login">
+                    <a href="/login" style="height: 50px;">
+                        <img src="{{ asset('css/imgs/avarta_user.jpg') }}" alt="">
+                    </a>
+                </div>
+                
+
+            </div>
         </div>
 
         <div class="">
